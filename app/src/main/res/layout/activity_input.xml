@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0DD116"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.nore.kalkulator_gampang.EditActivity">
+
+
+    <EditText
+        android:id="@+id/isi_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama Barang, Contoh : Nasi Putih"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/isi_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Harga Barang, Contoh : 100~999999"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/isi_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Jumlah Barang, Contoh : 1~999999"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#108610"
+        android:text="Tambah"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#18A018"
+        android:text="Batal"
+        android:textColor="#ffffff" />
+</LinearLayout>
